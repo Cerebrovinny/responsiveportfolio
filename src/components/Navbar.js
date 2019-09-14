@@ -16,11 +16,20 @@ class Navbar extends Component {
                     </button>
 
                     <section className="collapse navbar-collapse" id="navbarMainToggler">
-                        <div className="navbar-nav ml-auto">
+                        <div className="navbar-nav ml-auto pr-3">
                             <a className="nav-item nav-link" href="#">Home</a>
                             <a className="nav-item nav-link" href="#">Channel</a>
                             <a className="nav-item nav-link" href="#">Login</a>
                         </div>
+                        <form className="form-inline">
+                            <div className="input-group">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text">@</span>
+                                </div>
+                                <input type="text" className="form-control mr-3" placeholder="Username"/>&nbsp;
+                                <button className="btn btn-outline-success">Login</button>
+                            </div>
+                        </form>
                     </section>
 
                 </nav>
