@@ -11,7 +11,11 @@ function App() {
        <a className="nav-item nav-link" href="#">Home</a>
        <a className="nav-item nav-link" href="#">Channel</a>
        <a className="nav-item nav-link" href="#">Login</a>
-       </div>
+       </div> 
+       <button className="navbar-toggler" type="button" data-togler="collapse" data-target="#navbarMainToggler"
+      aria-controls="navbarMainToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span> // botao responsivo
+      </button>
      </nav>
     </div>
   );
